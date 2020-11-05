@@ -1,8 +1,9 @@
-package edu.ArturKim.JavaSintax.task002;
+package task002;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        Man man;
+
     }
 
     public static class Man {
