@@ -1,8 +1,7 @@
-package edu.ArturKim.JavaSintax.task003;
-
+package task003;
 public class Solution {
     public static int min(int a, int b) {
-        //напишите тут ваш код
+        return Math.min(a,b);
     }
 
     public static void main(String[] args) {

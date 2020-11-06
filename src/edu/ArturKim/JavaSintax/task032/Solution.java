@@ -1,3 +1,4 @@
+
 package edu.ArturKim.JavaSintax.task032;
 
 public class Solution {
@@ -27,3 +28,4 @@ public class Solution {
     }
 
 }
+

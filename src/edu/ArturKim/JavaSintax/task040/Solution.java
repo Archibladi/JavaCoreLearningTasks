@@ -1,5 +1,7 @@
 package edu.ArturKim.JavaSintax.task040;
 
+import java.awt.*;
+
 public class Solution {
     public static void main(String[] args) throws Exception {
     }

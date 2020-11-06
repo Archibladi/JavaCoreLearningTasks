@@ -3,7 +3,7 @@ package task002;
 public class Solution {
     public static void main(String[] args) {
         Man man;
-
+        Woman woman;
     }
 
     public static class Man {
