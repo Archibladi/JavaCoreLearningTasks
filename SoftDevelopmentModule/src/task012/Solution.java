@@ -1,4 +1,4 @@
-package edu.ArturKim.JavaSintax.task012;
+package task012;
 
 public class Solution {
     public static void main(String[] args) {
