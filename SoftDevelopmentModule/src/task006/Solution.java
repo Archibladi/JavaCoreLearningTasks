@@ -1,4 +1,4 @@
-package edu.ArturKim.JavaSintax.task006;
+package task006;
 
 public class Solution {
     public static void main(String[] args) {
@@ -16,10 +16,10 @@ public class Solution {
     }
 
     public static class Cat extends Pet {
-
+        Cat cat;
     }
 
     public static class Dog extends Pet {
-
+        Dog dog;
     }
 }

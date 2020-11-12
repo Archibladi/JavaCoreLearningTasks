@@ -1,9 +1,9 @@
-package edu.ArturKim.JavaSintax.task012;
+package task011;
 
 public class Solution {
     public static void main(String[] args) {
         Pet pet = new Cat();
-        pet.setName("Я - пушистик");
+        pet.setName("Я - кот");
 
         System.out.println(pet.getName());
     }
@@ -14,7 +14,7 @@ public class Solution {
         public Pet() {
         }
 
-        public final String getName() {
+        public String getName() {
             return name;
         }
 

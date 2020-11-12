@@ -1,13 +1,12 @@
-package edu.ArturKim.JavaSintax.task005;
+package task005;
 
 public class Solution {
     public static int min(int a, int b, int c, int d) {
-        //напишите тут ваш код
-
+      return Math.min(a,Math.min(b,Math.min(c,d)));
     }
 
     public static int min(int a, int b) {
-        //напишите тут ваш код
+        return Math.min(a,b);
 
     }
 

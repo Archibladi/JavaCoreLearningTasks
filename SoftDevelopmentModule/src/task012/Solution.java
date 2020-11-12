@@ -1,4 +1,4 @@
-package edu.ArturKim.JavaSintax.task011;
+package task012;
 
 public class Solution {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Solution {
         public Pet() {
         }
 
-        public String getName() {
+        public final String getName() {
             return name;
         }
 
