@@ -1,6 +1,16 @@
 package task004;
 public class Solution {    public static int min(int a, int b, int c) {
-    return Math.min(a,Math.min(b,c));
+    int k = 0;
+    if(a <= b && a <= c){
+        k=a;
+    }
+    if(b <= c && b <= a){
+        k=b;
+    }
+    if(c <= a && c <= b){
+        k=c;
+    }
+    return k;
 }
 
     public static void main(String[] args) {
