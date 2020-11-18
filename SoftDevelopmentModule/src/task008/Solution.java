@@ -2,7 +2,9 @@ package task008;
 
 public class Solution {
     public static void main(String[] args) {
-
+        System.out.println(max(23,43));
+        System.out.println(max(213314l,234242121l));
+        System.out.println(max(432.234,23.123));
     }
 
     public static int max(int a,int b) {

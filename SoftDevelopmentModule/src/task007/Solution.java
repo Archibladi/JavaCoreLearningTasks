@@ -1,16 +1,33 @@
 package task007;
 
-public class Solution {
+public class Solution{
     public  static int min(int a, int b){
-        return Math.min(a, b);
+     int k = 0;
+     if( a <= b){
+         k = a;
+     }
+     else k = b;
+     return k;
     }
     public static long min(long al, long bl){
-        return Math.min(al, bl);
+        long k =0;
+        if( al <= bl){
+            k = al;
+        }
+        else k = bl;
+        return k;
     }
     public static double min(double a, double b){
-        return Math.min(a, b);
+        double k =0;
+        if( a <= b){
+            k = a;
+        }
+        else k = b;
+        return k;
     }
-
     public static void main(String[] args) {
+        System.out.println(min(23,432));
+        System.out.println(min(23424l,432423l));
+        System.out.println(min(23.312,432.131));
     }
 }
