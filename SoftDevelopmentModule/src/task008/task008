@@ -10,3 +10,4 @@
 •	Метод long max(long, long) должен возвращать максимальное из двух чисел типа long.
 •	Класс Solution должен содержать статический метод double max(double, double).
 •	Метод double max(double, double) должен возвращать максимальное из двух чисел типа double.
+

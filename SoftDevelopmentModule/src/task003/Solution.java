@@ -1,7 +1,14 @@
 package task003;
 public class Solution {
     public static int min(int a, int b) {
-        return Math.min(a,b);
+        int k=0;
+        if ( a <= b ){
+            k=a;
+        }
+        else if ( a >= b){
+            k=b;
+        }
+        return k;
     }
 
     public static void main(String[] args) {

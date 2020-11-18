@@ -2,8 +2,10 @@ package task002;
 
 public class Solution {
     public static void main(String[] args) {
-        Man man;
-        Woman woman;
+        Man man = new Man();
+        Woman woman = new Woman();
+        man.wife = woman;
+        woman.husband = man;
     }
 
     public static class Man {
